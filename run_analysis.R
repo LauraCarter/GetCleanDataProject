@@ -80,5 +80,5 @@ runanalysis <- function(x = c()) ## input is a character vector i.e. the filenam
       melt2 <- melt(datacast, id=c("subjectid", "activity"))
       ## sort it neatly
       tidy <- arrange(melt2, subjectid, activity)
-      write.table(tidy, "./tidy_set.txt")
+      write.table(tidy, "./tidy_set.txt", row.name=FALSE)
 }
