@@ -1,5 +1,5 @@
 # Codebook
-Original data avaiable from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Original data available from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Original codebook available from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Variables in tidy data set returned in tidy_set.txt:
