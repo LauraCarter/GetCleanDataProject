@@ -1,20 +1,8 @@
 # Codebook
+Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+
 Original data available from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Original codebook available from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
-## Manipulations
-
-Merged the training and the test sets to create one data set.
-
-Extracted only the measurements on the mean and standard deviation for each measurement.
-
-Used descriptive activity names to name the activities in the data set
-
-Appropriately labelled the data set with descriptive variable names.
-
-Created a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Returned that data set as a text file
 
 ## Variables in tidy data set returned in tidy_set.txt:
 
@@ -92,3 +80,16 @@ variable: the variable being measured. One of the following:
 
 value: the average of the variable over all the measurements made for the given subject and activity
 
+## Manipulations
+
+Merged the training and the test sets to create one data set.
+
+Extracted only the measurements on the mean and standard deviation for each measurement.
+
+Used descriptive activity names to name the activities in the data set
+
+Appropriately labelled the data set with descriptive variable names.
+
+Created a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Returned that data set as a text file
